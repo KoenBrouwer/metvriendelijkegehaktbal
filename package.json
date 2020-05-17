@@ -1,0 +1,20 @@
+{
+  "name": "metvriendelijkegehaktbal.nl",
+  "version": "0.0.0",
+  "description": "",
+  "main": "static/index.html",
+  "scripts": {
+    "start": "npx serve static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoenBrouwer/metvriendelijkegehaktbal.git"
+  },
+  "keywords": [],
+  "author": "Koen Brouwer",
+  "license": "UNKOWN",
+  "bugs": {
+    "url": "https://github.com/KoenBrouwer/metvriendelijkegehaktbal/issues"
+  },
+  "homepage": "https://github.com/KoenBrouwer/metvriendelijkegehaktbal#readme"
+}

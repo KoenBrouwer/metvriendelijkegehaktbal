@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  font-size: 150%; }
+  body div.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center; }
+  body p.small {
+    font-size: 60%; }
+  body p#keysLegend {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 40%;
+    font-weight: bolder;
+    letter-spacing: 10px; }
+@keyframes gehaktbal {
+  0% {
+    transform: translateY(6px); }
+  5% {
+    transform: translateY(8px); }
+  10% {
+    transform: translateY(12px); }
+  15% {
+    transform: translateY(20px); }
+  20% {
+    transform: translateY(38px); }
+  25% {
+    transform: translateY(72px); }
+  30% {
+    transform: translateY(100px); }
+  35% {
+    transform: translateY(152px); }
+  40% {
+    transform: translateY(154px) scale(1.1, 0.9); }
+  50% {
+    transform: translateY(176px) scale(1.4, 0.6); }
+  55% {
+    transform: translateY(162px) scale(1.2, 0.8); }
+  60% {
+    transform: translateY(138px) scale(1.05, 0.95); }
+  65% {
+    transform: translateY(110px); }
+  70% {
+    transform: translateY(72px); }
+  75% {
+    transform: translateY(38px); }
+  80% {
+    transform: translateY(20px); }
+  85% {
+    transform: translateY(12px); }
+  90% {
+    transform: translateY(8px); }
+  95% {
+    transform: translateY(5px); }
+  100% {
+    transform: translateY(5px); } }
+  body .gehaktbalWrapper {
+    height: 500px;
+    width: 100%;
+    position: relative; }
+  body .gehaktbal {
+    animation: gehaktbal 1s infinite linear;
+    display: none;
+    z-index: 1; }
+    body .gehaktbal.visible {
+      display: inline; }
+
+/*# sourceMappingURL=style.css.map */
